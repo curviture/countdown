@@ -124,7 +124,7 @@ let countDown = {
     init: function () {
         let now = new Date();
         let targetDate = new Date();
-        targetDate.setDate(targetDate.getDate() + 9);
+        targetDate.setDate(targetDate.getDate() + 14);
         console.log('now', targetDate - now)
 
         this.targetDate = targetDate;
